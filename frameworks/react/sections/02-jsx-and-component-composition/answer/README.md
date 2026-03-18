@@ -1,6 +1,19 @@
-# 02-jsx-and-component-composition / answer
+# Answer：JSX 与组件组合
 
-该目录用于本节 answer 产物。
+## 说明
+本目录给出 exercise 的完整参考答案，结构与 exercise 一一对应。
 
-- 包管理器：pnpm
-- 状态：待实施
+## 对照重点
+- 给出完整 JSX 写法，并标注 map 与 key 的使用。
+- 对照时优先看“状态归属 / 数据流 / 副作用边界”（按章节主题不同侧重）。
+
+## 运行方式
+```bash
+pnpm install
+pnpm dev
+```
+
+## 复盘建议
+1. 先自己实现，再看答案。
+2. 逐条记录与答案的差异（不是只看结果）。
+3. 总结 1~2 条可复用到下节的经验。
