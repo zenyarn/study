@@ -1,0 +1,6 @@
+function PostCard({ title, children }) { return <article className="card"><h3>{title}</h3><div>{children}</div></article>; }
+function Section({ title, children }) { return <section><h2>{title}</h2>{children}</section>; }
+export default function App() {
+  const posts = [{ id: 1, title: "JSX", body: "可把 JS 放进 {}" }, { id: 2, title: "组合", body: "组件像积木" }];
+  return <div className="container"><h1>02 JSX 与组件组合（答案）</h1><Section title="完成列表">{posts.map((p) => <PostCard key={p.id} title={p.title}>{p.body}</PostCard>)}</Section></div>;
+}
