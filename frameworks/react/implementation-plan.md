@@ -74,3 +74,31 @@
 - 练习难度再校准。
 - 章节前后引用补全。
 - 全量运行与验收检查。
+
+
+## 本次实施记录（并行模拟）
+
+> 说明：在单仓库执行环境中，以“4 条并行工作流（A/B/C/D）×3 轮”方式落地文档与练习说明。
+
+### Round 1 产出
+- Agent A：完成 01 `README/basics/example/exercise/answer`。
+- Agent B：完成 02 `README/basics/example/exercise/answer`。
+- Agent C：完成 03 `README/basics/example/exercise/answer`。
+- Agent D：完成 04 `README/basics/example/exercise/answer`。
+
+### Round 2 产出
+- Agent A：完成 05。
+- Agent B：完成 06。
+- Agent C：完成 07。
+- Agent D：完成 08。
+
+### Round 3 产出
+- Agent A：完成 09。
+- Agent B：完成 10。
+- Agent C：完成 11。
+- Agent D：完成 12。
+
+### 总整合检查
+- 12 节均已按统一模板补齐。
+- TODO 描述统一为“少量关键空缺”。
+- 均补充了与 Next.js 的衔接说明。
